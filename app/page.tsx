@@ -1,9 +1,9 @@
-import React from 'react'
-import './globals.css'
+import { Hero } from '@/components'
+
 
 const Home = () => {
   return (
-    <h1 className='text-blue text-2xl bg-green-600'>Hello World</h1>
+    <Hero />
   )
 }
 
