@@ -1,5 +1,6 @@
+import { SearchManufacturerProps } from "@/types"
 
-const SearchManufacturer = () => {
+const SearchManufacturer = ({manufacturer, setManufacturer}: SearchManufacturerProps) => {
   return (
     <div>SearchManufacturer</div>
   )
