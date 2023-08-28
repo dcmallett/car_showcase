@@ -21,7 +21,7 @@ const SearchManufacturer = ({manufacturer, setManufacturer}: SearchManufacturerP
 
   return (
     <div className="search-manufacturer">
-      <Combobox>
+      <Combobox value={manufacturer} onChange={setManufacturer}>
         <div className="relative w-full">
           <Combobox.Button className="absolute top-[14px]">
             <Image 
@@ -87,3 +87,6 @@ const SearchManufacturer = ({manufacturer, setManufacturer}: SearchManufacturerP
 }
 
 export default SearchManufacturer
+
+//JS Mastery video CarHub time frame 1:15:00 
+//Car Catolog
